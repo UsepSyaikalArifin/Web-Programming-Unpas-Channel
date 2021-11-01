@@ -1,0 +1,8 @@
+.satu{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle farthest-corner at top left,
+                                      red,
+                                      blue);
+}

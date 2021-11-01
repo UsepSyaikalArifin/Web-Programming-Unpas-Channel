@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url("../font-face/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "open_sansregular";
+}

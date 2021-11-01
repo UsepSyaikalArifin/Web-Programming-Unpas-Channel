@@ -1,0 +1,25 @@
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* transition: 2s; */
+}
+
+.kotak:hover{
+    /* width: 500px; */
+    cursor: pointer;
+    animation: animationKotak 2s ease 2 alternate forwards running;
+}
+
+@keyframes animationKotak{
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 700px;
+        height: 500px;
+    }
+    100%{
+        width: 500px;
+    }
+}

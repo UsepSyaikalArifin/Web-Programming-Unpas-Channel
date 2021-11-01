@@ -1,0 +1,27 @@
+.satu{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(90deg, red, #f60, blue);
+}
+
+.dua{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to left, blue, green, red);
+}
+
+.tiga{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to left top, green, red, blue);
+}
+
+.empat{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right bottom, red 20%, blue 80%, green 10%);
+}

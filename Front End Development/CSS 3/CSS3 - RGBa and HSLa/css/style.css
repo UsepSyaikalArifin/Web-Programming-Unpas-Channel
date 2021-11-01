@@ -1,0 +1,18 @@
+body{
+    background-image: url(../images/Logo\ ReactJs\ 256px.png);
+}
+
+.satu{
+    width: 300px;
+    height: 300px;
+    background-color: hsla(50, 100%, 63%, 1);
+    position: relative;
+}
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
