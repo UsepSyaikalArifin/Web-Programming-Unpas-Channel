@@ -1,0 +1,88 @@
+body {
+    font-family: "Fixedsys Excelsior 3.01";
+}
+
+/* 1. CSS Value -> Integer */
+/* 
+z-index : 1;
+z-index : -9999;
+order : 3;
+grid-column-start : 2;
+grid-row-end : -4;
+*/
+
+/* 2. CSS Value -> Number */
+/* 
+opacity : 0.8;
+trasnform : scale(2.5)
+*/
+
+/* 3. CSS Value -> Percentage */
+/* 
+.box-besar{
+    width : 80%;
+    height : 200px;
+    background-color : salmon;
+*/
+
+/* 4. CSS Value -> Percentage */
+/* 
+.box-besar .box-kecil{
+    width : 50%;
+    height : 100px;
+    background-color : salmon;
+*/
+
+/* 5. CSS Value -> Dimension Angle */
+.box1 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: salmon;
+    transition: 1s;
+}
+
+.box1:hover {
+    /* transform: rotate(30deg); */
+    /* transform: rotate(0.83333turn); */
+    /* transform: rotate(0.5233333rad);} */
+    transform: rotate(1turn);
+}
+
+/* 7. CSS Value -> Dimension Resolution */
+
+/* 8. CSS Value -> Dimension Length em */
+.box2 {
+    font-size: 30px;
+}
+.box2 h1 {
+    font-size: 1em;
+}
+.box2 p {
+    font-size: 2em;
+}
+
+/* 9. CSS Value -> Dimension Length rem */
+html {
+    font-size: 50px;
+}
+.box3 {
+    font-size: 30px;
+}
+.box3 h1 {
+    font-size: 1rem;
+}
+.box3 p {
+    font-size: 2rem;
+}
+
+/* 10. CSS Value -> Dimension Length ch */
+/* .box4 {
+    font-size: 60ch;
+} */
+.box4 h1 {
+    font-size: 1ch;
+}
+.box4 p {
+    font-size: 1ch;
+}
