@@ -3,16 +3,27 @@
     padding: 0;
 }
 
+header {
+    background-color: #ccc;
+    background-image: url(../images/image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
 body {
     font-family: "Fixedsys Excelsior 3.01";
-    line-height: 1.8em;
+    line-height: 1.8em; /*1.8 x 16px*/
 }
 h1 {
-    font-size: 4em;
-    line-height: 1.2em;
+    /* font-size: 4rem; 4 x 16px */
+    font-size: 4vmax; /*4 x 16px*/
+    line-height: 1.2em; /*1.2 * 4 x 16px*/
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
     text-align: center;
+    margin: auto;
 }
 
 section {
