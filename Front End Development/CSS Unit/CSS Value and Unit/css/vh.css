@@ -1,0 +1,9 @@
+.box {
+    background-color: red;
+    height: 100vh;
+}
+.box2 {
+    background-color: green;
+    width: 100vmax;
+    height: 100vmin;
+}
