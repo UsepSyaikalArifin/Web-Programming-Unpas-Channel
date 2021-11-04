@@ -31,7 +31,7 @@ y = 12;
 console.info(y % 2 === 0 && y < 10);
 console.info(y % 2 === 0 || y < 10);
 
-// Operator Nor
+// Operator Not
 y = 10;
 console.info(y < 10);
 console.info(!(y < 10));
