@@ -23,3 +23,15 @@ console.log(10 != 10);
 console.log(10 != 15);
 console.log(10 == `10`);
 console.log(10 === `10`);
+
+// Operator Logika
+let y = 5;
+console.info(y % 2 === 0);
+y = 12;
+console.info(y % 2 === 0 && y < 10);
+console.info(y % 2 === 0 || y < 10);
+
+// Operator Nor
+y = 10;
+console.info(y < 10);
+console.info(!(y < 10));
