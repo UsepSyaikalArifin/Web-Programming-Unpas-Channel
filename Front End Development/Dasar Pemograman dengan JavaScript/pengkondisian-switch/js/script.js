@@ -30,17 +30,11 @@ let item = prompt(`Masukan nama makanan / minuman !!!`)
 
 switch(item){
     case `nasi`:
-        document.writeln(`<p>nasi adalah makanan / minuman sehat</p>`)
-        break
     case `daging`:
-        document.writeln(`<p>daging adalah makanan / minuman sehat</p>`)
-        break
     case `susu`:
         document.writeln(`<p>susu adalah makanan / minuman sehat</p>`)
         break
     case `hamburger`:
-        document.writeln(`<p>hamburger adalah makanan / minuman tidak sehat</p>`)
-        break
     case `softdrink`:
         document.writeln(`<p>softdrink adalah makanan / minuman tidak sehat</p>`)
         break
