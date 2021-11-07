@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Acme', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Navbar Awal */
@@ -109,6 +110,11 @@ nav ul li a:hover{
         flex-direction: column;
         z-index: -1;
         background-color: rgb(109, 6, 100);
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    nav ul.slide{
+        transform: translateX(0);
     }
 }
 /* Ukuran Mobile Akhir */
