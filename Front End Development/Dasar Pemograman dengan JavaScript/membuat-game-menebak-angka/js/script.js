@@ -7,22 +7,31 @@ while (repeat) {
     // 3. Menentukan Rules
     let result
     let kesempatan = 1
-    while (kesempatan < 3) {
+    while(kesempatan <= 3){
         if(player === computer){
             result = `Benar`
-            alert(`Kesempatan ${kesempatan} => ${player} VS ${computer} = ${result}`)
-            kesempatan = 3
-        }else if(player < computer){
-            result = `Angka yang anda masukan terlelu kecil`
-            alert(`Kesempatan ${kesempatan} => ${player} = ${result}`)
-            player = parseInt(prompt(`Masukan Angka yang anda pilih !!! `))
-            kesempatan++
+            alert(`Kesempatan ke - ${kesempatan} => ${player} VS ${computer} = ${result}`)
+            kesempatan = 4
+        }else if(player <= computer){
+            result = `Terlalu kecil`
+            alert(`Kesempatan ke - ${kesempatan} => ${player} VS ${computer} = ${result}`)
+            kesempatan += 1
+            if(kesempatan <=3){
+                player = parseInt(prompt(`Masukan Angka yang anda pilih !!! `))
+            }else{
+                alert(`Kesempatan Menebak sudah habis`)
+            }
         }else{
-            result = `Angka yang anda masukan terlelu Besar`
-            alert(`Kesempatan ${kesempatan} => ${player}  = ${result}`)
-            player = parseInt(prompt(`Masukan Angka yang anda pilih !!! `))
-            kesempatan++
+            result = `Terlalu Besar`
+            alert(`Kesempatan ke - ${kesempatan} => ${player} VS ${computer} = ${result}`)
+            kesempatan += 1
+            if(kesempatan <=3){
+                player = parseInt(prompt(`Masukan Angka yang anda pilih !!! `))
+            }else{
+                alert(`Kesempatan Menebak sudah habis`)
+            }
         }
     }
-    repeat = confirm(` ?`)
+
+    repeat = confirm(`Lagi ??`)
 }
