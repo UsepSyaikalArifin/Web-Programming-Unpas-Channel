@@ -1,3 +1,4 @@
+// 1. Program ke - 1
 let noAngkot = 1
 let jumlahAngkot = 10
 let angkotBaik = 6
@@ -9,4 +10,15 @@ for(noAngkot = 1; noAngkot <=jumlahAngkot ; noAngkot++){
     }else{
         document.writeln(`<p>Angkot No. ${noAngkot} sedang tidak beroperasi</p>`)
     }
+}
+
+// 2. Program ke - 2
+let angka = prompt(`Masukan Angka = !!!`)
+
+if(angka % 2 === 0){
+    document.writeln(`<p>${angka} bilangan ganjil</p>`)
+}else if(angka % 2 === 1){
+    document.writeln(`<p>${angka} bilangan ganjil</p>`)
+}else{
+    document.writeln(`<p>${angka} bukan number</p>`)
 }
