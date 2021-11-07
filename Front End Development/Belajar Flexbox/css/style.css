@@ -1,0 +1,24 @@
+.container-flex{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: baseline; */
+    /* align-items: center; */
+}
+
+.container-flex div{
+    margin: 2px;
+    background-color: rgb(84, 219, 243);
+    flex: 1;
+}
+
+.container-flex div.dua{
+    flex: 2;
+    align-self: flex-end;
+}
