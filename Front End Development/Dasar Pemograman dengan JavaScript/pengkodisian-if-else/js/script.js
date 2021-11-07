@@ -22,3 +22,14 @@ if(angka % 2 === 0){
 }else{
     document.writeln(`<p>${angka} bukan number</p>`)
 }
+
+// Tugas
+for(noAngkot = 1; noAngkot <= jumlahAngkot; noAngkot++){
+    if(noAngkot <= angkotBaik){
+        document.writeln(`<p>Angkot No. ${noAngkot} sedang beroperasi dengan baik</p>`)
+    }else if(noAngkot === 8){
+        document.writeln(`<p>Angkot No. ${noAngkot} sedangan Lembur</p>`)
+    }else{
+        document.writeln(`<p>Angkot No. ${noAngkot} sedang tidak beroperasi</p>`)
+    }
+}
