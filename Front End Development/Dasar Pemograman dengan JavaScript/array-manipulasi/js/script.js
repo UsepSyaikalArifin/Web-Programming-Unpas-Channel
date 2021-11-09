@@ -52,3 +52,36 @@ array5.push("slice","splice","unshift")
 console.table(array5)
 let array6 = array5.slice(1, 3)
 console.table(array6)
+
+// 11. Method foreach & map
+let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+angka.forEach(function(element){
+    console.info(element)
+})
+
+let mahasiswa = ["Usep","Asep","Annas","Raden"]
+mahasiswa.forEach(function(element, index){
+    console.info(`Mahasiswa ke - ${index} adalah ${element}`)
+})
+
+// 12. Method map (lebih unggul dari forEach karena mengembalikan nilai)
+let mahasiswa2 = ["Usep","Asep","Annas","Raden"]
+let mahasiswa3 = mahasiswa2.map(function(element, index){
+    return `${element}+${index}`
+})
+console.log(mahasiswa3.join("-"))
+
+// 13. Method sort
+let angka2 = [1, 2, 3, 4, 7, 6, 1, 1, 5, 21]
+angka2.sort(function(a,b){
+    return a-b
+})
+console.log(angka2.join(" - "))
+
+// 14. Method filter dan find
+//  filter & find sama hanya filter mengembalikan dalam bentuk array find dalam bentuk 1 nilai saja
+let mahasiswa4 = ["Usep","Syaikal","Arifin"]
+let mahasiswa5 = mahasiswa4.filter(function(element){
+    return element === "Usep"
+})
+console.info(mahasiswa5)
